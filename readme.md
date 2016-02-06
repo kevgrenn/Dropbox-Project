@@ -1,3 +1,5 @@
+Dropbox_Walkthrough.gif
+
 Time : 11hours
 - User can swipe through the 3 welcome screens.
 - User can follow the create user flow.
