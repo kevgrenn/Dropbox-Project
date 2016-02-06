@@ -1,4 +1,4 @@
-Dropbox_Walkthrough.gif
+
 
 Time : 11hours
 - User can swipe through the 3 welcome screens.
@@ -13,3 +13,5 @@ Time : 11hours
 - Optional: Add a detail view for one of the files and implement favoriting the file. Configure a Button
 - Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard. Dismissing the Keyboard
 - Optional: You should be able to swipe through the welcome screens instead of just tapping them.
+
+Dropbox_Walkthrough.gif
