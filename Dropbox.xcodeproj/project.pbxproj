@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C00068D1C65DD0A00C5D7A4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C00068C1C65DD0A00C5D7A4 /* SignInViewController.swift */; };
+		7C0BF1C31C6282D600B7CD84 /* ToSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BF1C21C6282D600B7CD84 /* ToSViewController.swift */; };
+		7C4EADDC1C6659A200E1FC8F /* QuickStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EADDB1C6659A200E1FC8F /* QuickStartViewController.swift */; };
+		7C4EADDE1C665F1000E1FC8F /* favoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EADDD1C665F1000E1FC8F /* favoritesViewController.swift */; };
+		7C4EADE01C666E7000E1FC8F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EADDF1C666E7000E1FC8F /* IntroViewController.swift */; };
+		7C4EADE21C667D1300E1FC8F /* createTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EADE11C667D1300E1FC8F /* createTabViewController.swift */; };
+		7CBC4B0E1C63220900551061 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC4B0D1C63220900551061 /* settingsViewController.swift */; };
+		7CBC4B101C6326F100551061 /* photosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC4B0F1C6326F100551061 /* photosViewController.swift */; };
+		7CBC4B121C63301800551061 /* newAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBC4B111C63301800551061 /* newAccountViewController.swift */; };
+		7CCB763E1C61B9F700F4D3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB763D1C61B9F700F4D3C1 /* AppDelegate.swift */; };
+		7CCB76401C61B9F700F4D3C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB763F1C61B9F700F4D3C1 /* ViewController.swift */; };
+		7CCB76431C61B9F700F4D3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB76411C61B9F700F4D3C1 /* Main.storyboard */; };
+		7CCB76451C61B9F700F4D3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB76441C61B9F700F4D3C1 /* Assets.xcassets */; };
+		7CCB76481C61B9F800F4D3C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCB76461C61B9F800F4D3C1 /* LaunchScreen.storyboard */; };
+		7CCB76531C61B9F800F4D3C1 /* DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB76521C61B9F800F4D3C1 /* DropboxTests.swift */; };
+		7CCB765E1C61B9F800F4D3C1 /* DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB765D1C61B9F800F4D3C1 /* DropboxUITests.swift */; };
+		7CCB766C1C61CD4F00F4D3C1 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB766B1C61CD4F00F4D3C1 /* CreateAccountRootViewController.swift */; };
+		7CCB766E1C61CE3000F4D3C1 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB766D1C61CE3000F4D3C1 /* SignInRootViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CCB764F1C61B9F800F4D3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCB76321C61B9F700F4D3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCB76391C61B9F700F4D3C1;
+			remoteInfo = Dropbox;
+		};
+		7CCB765A1C61B9F800F4D3C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CCB76321C61B9F700F4D3C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CCB76391C61B9F700F4D3C1;
+			remoteInfo = Dropbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C00068C1C65DD0A00C5D7A4 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7C0BF1C21C6282D600B7CD84 /* ToSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToSViewController.swift; sourceTree = "<group>"; };
+		7C4EADDB1C6659A200E1FC8F /* QuickStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickStartViewController.swift; sourceTree = "<group>"; };
+		7C4EADDD1C665F1000E1FC8F /* favoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritesViewController.swift; sourceTree = "<group>"; };
+		7C4EADDF1C666E7000E1FC8F /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		7C4EADE11C667D1300E1FC8F /* createTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createTabViewController.swift; sourceTree = "<group>"; };
+		7CBC4B0D1C63220900551061 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		7CBC4B0F1C6326F100551061 /* photosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photosViewController.swift; sourceTree = "<group>"; };
+		7CBC4B111C63301800551061 /* newAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newAccountViewController.swift; sourceTree = "<group>"; };
+		7CCB763A1C61B9F700F4D3C1 /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCB763D1C61B9F700F4D3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CCB763F1C61B9F700F4D3C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CCB76421C61B9F700F4D3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CCB76441C61B9F700F4D3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CCB76471C61B9F800F4D3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CCB76491C61B9F800F4D3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCB764E1C61B9F800F4D3C1 /* DropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCB76521C61B9F800F4D3C1 /* DropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxTests.swift; sourceTree = "<group>"; };
+		7CCB76541C61B9F800F4D3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCB76591C61B9F800F4D3C1 /* DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCB765D1C61B9F800F4D3C1 /* DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxUITests.swift; sourceTree = "<group>"; };
+		7CCB765F1C61B9F800F4D3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CCB766B1C61CD4F00F4D3C1 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		7CCB766D1C61CE3000F4D3C1 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CCB76371C61B9F700F4D3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCB764B1C61B9F800F4D3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCB76561C61B9F800F4D3C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CCB76311C61B9F700F4D3C1 = {
+			isa = PBXGroup;
+			children = (
+				7CCB763C1C61B9F700F4D3C1 /* Dropbox */,
+				7CCB76511C61B9F800F4D3C1 /* DropboxTests */,
+				7CCB765C1C61B9F800F4D3C1 /* DropboxUITests */,
+				7CCB763B1C61B9F700F4D3C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CCB763B1C61B9F700F4D3C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB763A1C61B9F700F4D3C1 /* Dropbox.app */,
+				7CCB764E1C61B9F800F4D3C1 /* DropboxTests.xctest */,
+				7CCB76591C61B9F800F4D3C1 /* DropboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CCB763C1C61B9F700F4D3C1 /* Dropbox */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB763D1C61B9F700F4D3C1 /* AppDelegate.swift */,
+				7CCB763F1C61B9F700F4D3C1 /* ViewController.swift */,
+				7CCB76411C61B9F700F4D3C1 /* Main.storyboard */,
+				7C4EADE11C667D1300E1FC8F /* createTabViewController.swift */,
+				7C4EADDF1C666E7000E1FC8F /* IntroViewController.swift */,
+				7C4EADDD1C665F1000E1FC8F /* favoritesViewController.swift */,
+				7C00068C1C65DD0A00C5D7A4 /* SignInViewController.swift */,
+				7CBC4B111C63301800551061 /* newAccountViewController.swift */,
+				7CBC4B0F1C6326F100551061 /* photosViewController.swift */,
+				7CBC4B0D1C63220900551061 /* settingsViewController.swift */,
+				7C0BF1C21C6282D600B7CD84 /* ToSViewController.swift */,
+				7CCB766D1C61CE3000F4D3C1 /* SignInRootViewController.swift */,
+				7CCB766B1C61CD4F00F4D3C1 /* CreateAccountRootViewController.swift */,
+				7CCB76441C61B9F700F4D3C1 /* Assets.xcassets */,
+				7C4EADDB1C6659A200E1FC8F /* QuickStartViewController.swift */,
+				7CCB76461C61B9F800F4D3C1 /* LaunchScreen.storyboard */,
+				7CCB76491C61B9F800F4D3C1 /* Info.plist */,
+			);
+			path = Dropbox;
+			sourceTree = "<group>";
+		};
+		7CCB76511C61B9F800F4D3C1 /* DropboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB76521C61B9F800F4D3C1 /* DropboxTests.swift */,
+				7CCB76541C61B9F800F4D3C1 /* Info.plist */,
+			);
+			path = DropboxTests;
+			sourceTree = "<group>";
+		};
+		7CCB765C1C61B9F800F4D3C1 /* DropboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CCB765D1C61B9F800F4D3C1 /* DropboxUITests.swift */,
+				7CCB765F1C61B9F800F4D3C1 /* Info.plist */,
+			);
+			path = DropboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CCB76391C61B9F700F4D3C1 /* Dropbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCB76621C61B9F800F4D3C1 /* Build configuration list for PBXNativeTarget "Dropbox" */;
+			buildPhases = (
+				7CCB76361C61B9F700F4D3C1 /* Sources */,
+				7CCB76371C61B9F700F4D3C1 /* Frameworks */,
+				7CCB76381C61B9F700F4D3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dropbox;
+			productName = Dropbox;
+			productReference = 7CCB763A1C61B9F700F4D3C1 /* Dropbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CCB764D1C61B9F800F4D3C1 /* DropboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCB76651C61B9F800F4D3C1 /* Build configuration list for PBXNativeTarget "DropboxTests" */;
+			buildPhases = (
+				7CCB764A1C61B9F800F4D3C1 /* Sources */,
+				7CCB764B1C61B9F800F4D3C1 /* Frameworks */,
+				7CCB764C1C61B9F800F4D3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCB76501C61B9F800F4D3C1 /* PBXTargetDependency */,
+			);
+			name = DropboxTests;
+			productName = DropboxTests;
+			productReference = 7CCB764E1C61B9F800F4D3C1 /* DropboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CCB76581C61B9F800F4D3C1 /* DropboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CCB76681C61B9F800F4D3C1 /* Build configuration list for PBXNativeTarget "DropboxUITests" */;
+			buildPhases = (
+				7CCB76551C61B9F800F4D3C1 /* Sources */,
+				7CCB76561C61B9F800F4D3C1 /* Frameworks */,
+				7CCB76571C61B9F800F4D3C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CCB765B1C61B9F800F4D3C1 /* PBXTargetDependency */,
+			);
+			name = DropboxUITests;
+			productName = DropboxUITests;
+			productReference = 7CCB76591C61B9F800F4D3C1 /* DropboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CCB76321C61B9F700F4D3C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "kevin grennan";
+				TargetAttributes = {
+					7CCB76391C61B9F700F4D3C1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BUML34KQ45;
+					};
+					7CCB764D1C61B9F800F4D3C1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BUML34KQ45;
+						TestTargetID = 7CCB76391C61B9F700F4D3C1;
+					};
+					7CCB76581C61B9F800F4D3C1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BUML34KQ45;
+						TestTargetID = 7CCB76391C61B9F700F4D3C1;
+					};
+				};
+			};
+			buildConfigurationList = 7CCB76351C61B9F700F4D3C1 /* Build configuration list for PBXProject "Dropbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CCB76311C61B9F700F4D3C1;
+			productRefGroup = 7CCB763B1C61B9F700F4D3C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CCB76391C61B9F700F4D3C1 /* Dropbox */,
+				7CCB764D1C61B9F800F4D3C1 /* DropboxTests */,
+				7CCB76581C61B9F800F4D3C1 /* DropboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CCB76381C61B9F700F4D3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCB76481C61B9F800F4D3C1 /* LaunchScreen.storyboard in Resources */,
+				7CCB76451C61B9F700F4D3C1 /* Assets.xcassets in Resources */,
+				7CCB76431C61B9F700F4D3C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCB764C1C61B9F800F4D3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCB76571C61B9F800F4D3C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCB76361C61B9F700F4D3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCB766E1C61CE3000F4D3C1 /* SignInRootViewController.swift in Sources */,
+				7CCB766C1C61CD4F00F4D3C1 /* CreateAccountRootViewController.swift in Sources */,
+				7CCB76401C61B9F700F4D3C1 /* ViewController.swift in Sources */,
+				7C4EADE01C666E7000E1FC8F /* IntroViewController.swift in Sources */,
+				7C4EADDC1C6659A200E1FC8F /* QuickStartViewController.swift in Sources */,
+				7CBC4B101C6326F100551061 /* photosViewController.swift in Sources */,
+				7CCB763E1C61B9F700F4D3C1 /* AppDelegate.swift in Sources */,
+				7C00068D1C65DD0A00C5D7A4 /* SignInViewController.swift in Sources */,
+				7C0BF1C31C6282D600B7CD84 /* ToSViewController.swift in Sources */,
+				7C4EADE21C667D1300E1FC8F /* createTabViewController.swift in Sources */,
+				7C4EADDE1C665F1000E1FC8F /* favoritesViewController.swift in Sources */,
+				7CBC4B0E1C63220900551061 /* settingsViewController.swift in Sources */,
+				7CBC4B121C63301800551061 /* newAccountViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCB764A1C61B9F800F4D3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCB76531C61B9F800F4D3C1 /* DropboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCB76551C61B9F800F4D3C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCB765E1C61B9F800F4D3C1 /* DropboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CCB76501C61B9F800F4D3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCB76391C61B9F700F4D3C1 /* Dropbox */;
+			targetProxy = 7CCB764F1C61B9F800F4D3C1 /* PBXContainerItemProxy */;
+		};
+		7CCB765B1C61B9F800F4D3C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CCB76391C61B9F700F4D3C1 /* Dropbox */;
+			targetProxy = 7CCB765A1C61B9F800F4D3C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CCB76411C61B9F700F4D3C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCB76421C61B9F700F4D3C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CCB76461C61B9F800F4D3C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CCB76471C61B9F800F4D3C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CCB76601C61B9F800F4D3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CCB76611C61B9F800F4D3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CCB76631C61B9F800F4D3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.DropboxProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CCB76641C61B9F800F4D3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dropbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.DropboxProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CCB76661C61B9F800F4D3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.DropboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropbox.app/Dropbox";
+			};
+			name = Debug;
+		};
+		7CCB76671C61B9F800F4D3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.DropboxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dropbox.app/Dropbox";
+			};
+			name = Release;
+		};
+		7CCB76691C61B9F800F4D3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.DropboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dropbox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7CCB766A1C61B9F800F4D3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DropboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kg.DropboxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Dropbox;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CCB76351C61B9F700F4D3C1 /* Build configuration list for PBXProject "Dropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCB76601C61B9F800F4D3C1 /* Debug */,
+				7CCB76611C61B9F800F4D3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCB76621C61B9F800F4D3C1 /* Build configuration list for PBXNativeTarget "Dropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCB76631C61B9F800F4D3C1 /* Debug */,
+				7CCB76641C61B9F800F4D3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCB76651C61B9F800F4D3C1 /* Build configuration list for PBXNativeTarget "DropboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCB76661C61B9F800F4D3C1 /* Debug */,
+				7CCB76671C61B9F800F4D3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CCB76681C61B9F800F4D3C1 /* Build configuration list for PBXNativeTarget "DropboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CCB76691C61B9F800F4D3C1 /* Debug */,
+				7CCB766A1C61B9F800F4D3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CCB76321C61B9F700F4D3C1 /* Project object */;
+}
