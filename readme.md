@@ -14,4 +14,4 @@ Time : 11hours
 - Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard. Dismissing the Keyboard
 - Optional: You should be able to swipe through the welcome screens instead of just tapping them.
 
-Dropbox_Walkthrough.gif
+Dropbox-Project/Dropbox_Walkthrough.gif
